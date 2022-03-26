@@ -1,0 +1,20 @@
+a {
+  color: red;
+}
+
+.telefone {
+  color: orange;
+}
+
+#telefone {
+  color: blue;
+  background-color: red;
+}
+
+body {
+  color: chocolate;
+}
+
+body header span {
+  color: blueviolet;
+}
