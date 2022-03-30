@@ -3,6 +3,24 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+body {
+  font-size: 20px;
+}
+h1 {
+  /* font-size: 562.5%; 90 / 16 = 5,625 * 100 = 562,5 */
+  /* font-size: 90px; 90 / 16 = 5,625 * 100 = 562,5 */
+  /* font-size: 1em; */
+  font-size: 2rem;
+}
+
+.tamanho {
+  font-size: 5rem;
+  padding-left: 4rem;
+}
+
+.tamanho span {
+  font-size: 1em;
+}
 
 h1,
 h2,
