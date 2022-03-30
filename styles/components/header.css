@@ -1,0 +1,25 @@
+header {
+  /* https://origamid.com/projetos/flexbox-guia-completo/ */
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+}
+
+header .logo {
+  /* https://www.origamid.com/projetos/css-grid-layout-guia-completo/ */
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  /* https://www.instagram.com/p/CanqhSpuCrL/ */
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.3));
+}
+
+header a {
+  color: #1d2043;
+  text-decoration: none;
+  font-size: 0.84rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
