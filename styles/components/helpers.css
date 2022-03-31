@@ -2,6 +2,10 @@
   color: #8b80f9;
 }
 
+.color-secondary {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .margin-top-20 {
   margin-top: 20px;
 }

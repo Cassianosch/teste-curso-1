@@ -4,6 +4,7 @@
 
 @import "./components/header.css";
 @import "./components/banner.css";
+@import "./components/services.css";
 
 * {
   font-family: "Poppins", sans-serif;
@@ -13,6 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 body {
@@ -40,6 +42,13 @@ h1 {
   line-height: 4.5rem;
 }
 
+.h2,
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
 h3 {
   font-size: 1.5rem;
   margin: 0;
@@ -47,7 +56,14 @@ h3 {
   color: #255983;
 }
 
+h4 {
+  font-size: 0.98rem;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
 .title-section {
+  font-size: 0.98rem;
   color: #8b80f9;
   font-weight: 600;
   background-color: #d1ccfe;

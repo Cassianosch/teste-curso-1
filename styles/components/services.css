@@ -1,0 +1,50 @@
+.services {
+  background-color: #f9fafb;
+}
+
+.services .services-inside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.services .left img {
+  margin-top: 5rem;
+  width: 80%;
+  display: block;
+}
+
+.services .my-services img {
+  width: 100%;
+}
+
+.services .my-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services .my-services .single-component {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.services .my-services .single-component .box-image {
+  background-color: #8b80f9;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .my-services .single-component .box-image img {
+  max-height: 25px;
+}
+
+.services .my-services .single-component .arrow-right {
+  max-height: 10px;
+}
