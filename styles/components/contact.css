@@ -1,0 +1,43 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.contact .left h2 {
+  margin-top: 2rem;
+}
+
+.contact .left #form {
+  width: 60%;
+  margin-top: 3rem;
+}
+
+.contact .left #form .box-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.4rem;
+}
+
+.contact .left #form .box-input label {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.contact .left #form .box-input textarea,
+.contact .left #form .box-input input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact .left #form .button-submit {
+  float: right;
+  margin-top: 0.2rem;
+}
+
+.contact .right img {
+  width: 80%;
+}

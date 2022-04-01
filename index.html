@@ -95,35 +95,43 @@
     </div>
   </article>
   <div class="container">
-    <article>
-      <section>
+    <article class="contact">
+      <section class="left">
         <span class="title-section">Entre em contato comigo</span>
-        <h2>Vamos conversar e calcular um valor para o seu projeto |</h2>
+        <h2>
+          Vamos conversar e calcular um valor para o seu
+          <span class="color-primary h2">
+            projeto
+          </span>
+          <span class="color-secondary">
+            |
+          </span>
+        </h2>
         <form id="form" method="post">
-          <div>
+          <div class="box-input">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome">
           </div>
 
-          <div>
+          <div class="box-input">
             <label for="email">Email</label>
             <input type="text" name="email" id="email">
           </div>
 
-          <div>
+          <div class="box-input">
             <label for="assunto">Assunto</label>
             <input type="text" name="assunto" id="assunto">
           </div>
 
-          <div>
+          <div class="box-input">
             <label for="mensagem">Mensagem</label>
-            <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+            <textarea name="" id="mensagem" cols="30" rows="3"></textarea>
           </div>
-          <button type="submit">Salvar</button>
+          <button type="submit" class="button button-submit">Salvar</button>
 
         </form>
       </section>
-      <section>
+      <section class="right">
         <img src="./images/images-background/ic-contato.svg" />
       </section>
     </article>

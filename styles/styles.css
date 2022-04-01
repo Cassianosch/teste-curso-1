@@ -5,6 +5,7 @@
 @import "./components/header.css";
 @import "./components/banner.css";
 @import "./components/services.css";
+@import "./components/contact.css";
 
 * {
   font-family: "Poppins", sans-serif;
@@ -92,6 +93,7 @@ h4 {
   font-size: 0.8rem;
   border-radius: 4px;
   padding: 8px 30px 8px 12px;
+  border: none;
   position: relative;
 }
 
