@@ -1,9 +1,9 @@
 .color-primary {
-  color: #8b80f9;
+  color: var(--color-primary);
 }
 
 .color-secondary {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--color-secondary);
 }
 
 .margin-top-20 {

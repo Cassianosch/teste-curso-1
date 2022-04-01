@@ -24,13 +24,13 @@
 .contact .left #form .box-input label {
   font-size: 0.8rem;
   margin-bottom: 1rem;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--color-secondary);
 }
 
 .contact .left #form .box-input textarea,
 .contact .left #form .box-input input {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--color-secondary);
 }
 
 .contact .left #form .button-submit {

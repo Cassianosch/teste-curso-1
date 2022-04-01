@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,700&family=Poppins:wght@300&display=swap");
 
-@import "./components/helpers.css";
+@import "./components/helpers/helpers.css";
+@import "./components/helpers/colors.css";
 
-@import "./components/header.css";
-@import "./components/banner.css";
-@import "./components/services.css";
-@import "./components/contact.css";
+@import "./components/pages/header.css";
+@import "./components/pages/banner.css";
+@import "./components/pages/services.css";
+@import "./components/pages/contact.css";
 
 * {
   font-family: "Poppins", sans-serif;
@@ -33,7 +34,7 @@ h6 {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #00000099;
+  color: var(--color-p-text);
   font-size: 0.9rem;
 }
 
@@ -54,7 +55,7 @@ h3 {
   font-size: 1.5rem;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  color: #255983;
+  color: var(--color-h3-text);
 }
 
 h4 {
@@ -65,9 +66,9 @@ h4 {
 
 .title-section {
   font-size: 0.98rem;
-  color: #8b80f9;
+  color: var(--color-primary);
   font-weight: 600;
-  background-color: #d1ccfe;
+  background-color: var(--color-background-title);
   padding: 0 20px;
   position: relative;
 }
@@ -86,9 +87,9 @@ h4 {
 
 .button {
   display: inline-block;
-  background-color: #8b80f9;
+  background-color: var(--color-primary);
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: 600;
   font-size: 0.8rem;
   border-radius: 4px;

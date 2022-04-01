@@ -12,11 +12,11 @@ header .logo {
 
 header .logo img {
   /* https://www.instagram.com/p/CanqhSpuCrL/ */
-  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 3px 5px var(--color-secondary));
 }
 
 header a {
-  color: #1d2043;
+  color: var(--color-header-a);
   text-decoration: none;
   font-size: 0.84rem;
   display: flex;

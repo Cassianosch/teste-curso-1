@@ -1,5 +1,5 @@
 .services {
-  background-color: #f9fafb;
+  background-color: var(--color-background-article);
 }
 
 .services .services-inside {
@@ -32,7 +32,7 @@
 }
 
 .services .my-services .single-component .box-image {
-  background-color: #8b80f9;
+  background-color: var(--color-primary);
   height: 45px;
   width: 45px;
   border-radius: 50%;

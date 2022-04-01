@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #8b80f9;
+  --color-secondary: rgba(0, 0, 0, 0.3);
+  --color-background-title: #d1ccfe;
+  --color-background-article: #f9fafb;
+
+  --color-p-text: #00000099;
+  --color-h3-text: #255983;
+  --color-header-a: #1d2043;
+}
