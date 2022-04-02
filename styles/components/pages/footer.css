@@ -1,0 +1,70 @@
+/* footer {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 0.8fr;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
+} */
+/* .item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+} */
+
+.item-section-left {
+  grid-area: section-left;
+}
+.item-section-center {
+  grid-area: section-center;
+}
+.item-section-right {
+  grid-area: section-right;
+}
+.item-bottom-wave {
+  grid-area: bottom-wave;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 0.8fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "section-left section-center section-right"
+    "bottom-wave bottom-wave bottom-wave";
+  align-items: center;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+footer .left img {
+  width: 100%;
+}
+
+footer .center {
+  text-align: center;
+}
+
+footer .center .email {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-header-a);
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 8px 0 4px 0;
+}
+
+footer .center .phone {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-header-a);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
