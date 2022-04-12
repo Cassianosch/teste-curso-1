@@ -1,0 +1,97 @@
+/*
+1920
+1536
+1440
+1366
+1280
+980
+780
+414
+375
+360
+*/
+
+
+@media only screen and (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+  .title-section::before {
+    width: 30px !important;
+    left: -45px !important;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .container {
+    width: 95%;
+  }
+  header {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+  }
+  header .logo {
+    justify-content: center;
+  }
+  header a {
+    margin: 5px 0;
+  }
+  .banner {
+    margin: 0;
+  }
+
+  .banner,
+  .services .services-inside, 
+  .contact,
+  footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .banner,
+  .contact {
+    padding: 0;
+  }
+  .banner .right img {
+    width: 50%;
+    margin-top: 2rem;
+  }
+  .services .services-inside {
+    padding: 1rem 0;
+  }
+  .services .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .left #form {
+    width: 100%;
+  }
+  footer {
+    padding: 0;
+    grid-template-areas:
+        "section-center section-center section-center"
+        "bottom-wave bottom-wave bottom-wave";
+  }
+  footer .left img {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 414px) {
+  h1 {
+    font-size: 3rem !important;
+    line-height: 3.5rem !important;
+  }
+  .services .my-services {
+    grid-template-columns: 1fr;
+  }
+  footer .center .email {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+}

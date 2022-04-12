@@ -9,6 +9,9 @@
 @import "./components/pages/contact.css";
 @import "./components/pages/footer.css";
 
+@import "./components/helpers/responsive.css";
+
+
 * {
   font-family: "Poppins", sans-serif;
   -moz-box-sizing: border-box;
